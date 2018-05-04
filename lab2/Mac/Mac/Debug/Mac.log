@@ -1,0 +1,31 @@
+﻿Сборка начата 24.04.18 13:53:45.
+     1>Проект "E:\Study\Labs\4 semester\KSiS\lab2\Mac\Mac\Mac.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(49): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note:  см. объявление "sprintf"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(56): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(72): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(84): warning C4047: =: "char" отличается по уровням косвенного обращения от "char [2]"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(70): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1316): note:  см. объявление "itoa"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(75): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note:  см. объявление "strcat"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(97): warning C4026: функция объявлена со списком формальных параметров
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(131): warning C4047: =: "ULONG" отличается по уровням косвенного обращения от "char *"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(135): warning C4133: функция: несовместимые типы - из "icmp_hdr_t *" в "const char *"
+     1>e:\study\labs\4 semester\ksis\lab2\mac\mac\source.c(104): warning C4101: temp: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Study\Labs\4 semester\KSiS\lab2\Mac\Debug\Mac.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Study\Labs\4 semester\KSiS\lab2\Mac\Debug\Mac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Study\Labs\4 semester\KSiS\lab2\Mac\Debug\Mac.lib" /MACHINE:X86 Debug\Source.obj
+         Mac.vcxproj -> E:\Study\Labs\4 semester\KSiS\lab2\Mac\Debug\Mac.exe
+     1>Сборка проекта "E:\Study\Labs\4 semester\KSiS\lab2\Mac\Mac\Mac.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.49

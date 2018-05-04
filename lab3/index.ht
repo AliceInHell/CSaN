@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB3</title>
+</head>
+<body>
+<form action="index.php" method="post" enctype="multipart/form-data">
+    DIRECTORY: <input type = "text" name = "dir">
+    TEMP_DIRECTORY/TEXT: <input type = "text" name = "temp_dir"><br />
+    <!-- Поле файла и кнопка Обзор -->
+    <input type="file" name="loadFile"/>
+    <br />
+    <!-- Кнопки отправки данных -->
+    <input type='submit' name='addFile' value='Add' />
+    <input type='submit' name='readFile' value='Get' />
+    <input type='submit' name='editFile' value='Post' />
+    <input type='submit' name='rewriteFile' value='Put' />
+    <input type='submit' name='deleteFile' value='Delete' />
+    <input type='submit' name='copyFile' value='Copy' />
+    <input type='submit' name='removeFile' value='Move' />
+    <input type='submit' name='showDirectories' value='Show' />
+    <input type='submit' name='mkDirectory' value='mkDir' />
+    <input type='submit' name='downloadFile' value='Download' />
+
+</form>
+</body>
+</html>

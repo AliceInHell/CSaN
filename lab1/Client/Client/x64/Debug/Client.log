@@ -1,0 +1,39 @@
+﻿Сборка начата 03.03.18 09:54:45.
+     1>Проект "E:\Study\Labs\4 semester\КСиС\lab1\Client\Client\Client.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt Client.c
+         Client.c
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(18): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char (*)[1024]"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(18): warning C4024: recv: различные типы для формального и фактического параметров 2
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(22): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char (*)[1024]"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(22): warning C4024: recv: различные типы для формального и фактического параметров 2
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(56): warning C4267: функция: преобразование из "size_t" в "int"; возможна потеря данных
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(57): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char (*)[1024]"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(57): warning C4024: recv: различные типы для формального и фактического параметров 2
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(64): warning C4047: функция: "SIZE_T" отличается по уровням косвенного обращения от "void *"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(64): warning C4024: CreateThread: различные типы для формального и фактического параметров 2
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(64): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(64): warning C4024: CreateThread: различные типы для формального и фактического параметров 5
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(69): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(72): warning C4267: функция: преобразование из "size_t" в "int"; возможна потеря данных
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(73): warning C4267: функция: преобразование из "size_t" в "int"; возможна потеря данных
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(80): warning C4267: функция: преобразование из "size_t" в "int"; возможна потеря данных
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(81): warning C4267: функция: преобразование из "size_t" в "int"; возможна потеря данных
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(87): warning C4098: main: функция типа "void", возвращающая значение
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note:  см. объявление "scanf"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note:  см. объявление "inet_addr"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(54): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note:  см. объявление "scanf"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+     1>e:\study\labs\4 semester\ксис\lab1\client\client\client.c(27): warning C4715: Sending: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Study\Labs\4 semester\КСиС\lab1\Client\x64\Debug\Client.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Study\Labs\4 semester\КСиС\lab1\Client\x64\Debug\Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Study\Labs\4 semester\КСиС\lab1\Client\x64\Debug\Client.lib" /MACHINE:X64 x64\Debug\Client.obj
+         Client.vcxproj -> E:\Study\Labs\4 semester\КСиС\lab1\Client\x64\Debug\Client.exe
+     1>Сборка проекта "E:\Study\Labs\4 semester\КСиС\lab1\Client\Client\Client.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.22

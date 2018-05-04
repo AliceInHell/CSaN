@@ -1,0 +1,8 @@
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\bin\Debug\Client.exe
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\bin\Debug\Client.pdb
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\obj\Debug\Client.Form1.resources
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\obj\Debug\Client.Properties.Resources.resources
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\obj\Debug\Client.exe
+E:\Study\Labs\4 semester\KSiS\lab4\Client\Client\obj\Debug\Client.pdb
